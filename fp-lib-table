@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name autophon-nerdblatt)(type KiCad)(uri ${KIPRJMOD}/autophon-nerdblatt.pretty)(options "")(descr ""))
+)
