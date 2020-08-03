@@ -153,4 +153,6 @@ Text GLabel 3000 2750 2    50   Input ~ 0
 G.6
 Text GLabel 3000 2650 2    50   Input ~ 0
 G.5
+Text Notes 550  2100 0    50   ~ 0
+DIN 6 PIN:\n( 5   V   1 )\n(4    6    2)\n(     3     )\n(looking towards receptacle in frame)
 $EndSCHEMATC
