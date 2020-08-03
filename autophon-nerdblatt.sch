@@ -97,4 +97,60 @@ Wire Wire Line
 	2200 2250 3000 2250
 Wire Wire Line
 	2200 2450 3000 2450
+Text GLabel 2200 2650 0    50   Input ~ 0
+G.4
+Text GLabel 2200 2750 0    50   Input ~ 0
+G.3
+Text Notes 550  800  0    50   ~ 0
+Displays on side with access door: A B C\nDisplays on side witohout door: D E F\nMaintenance DIN Plug 6 Pin: G
+Text Notes 550  1500 0    50   ~ 0
+Pinout on 6 Pin DIN Connector: \n1 - Motor (Blue Wire)\n2 - Motor (Red Wire)\n3 - Hall ?\n4 - Hall ? \n5 - Hall ? \n6 - Hall ?
+Text GLabel 2200 4050 0    50   Input ~ 0
+A.3
+Text GLabel 2200 4150 0    50   Input ~ 0
+B.3
+Text GLabel 2200 4250 0    50   Input ~ 0
+C.3
+Text GLabel 2200 4450 0    50   Input ~ 0
+D.3
+Text GLabel 2200 4550 0    50   Input ~ 0
+E.3
+Text GLabel 2200 4650 0    50   Input ~ 0
+F.3
+Text GLabel 2200 4850 0    50   Input ~ 0
+A.1
+Text GLabel 2200 4950 0    50   Input ~ 0
+B.1
+Text GLabel 2200 5050 0    50   Input ~ 0
+C.1
+Text GLabel 2200 5250 0    50   Input ~ 0
+D.1
+Text GLabel 2200 5350 0    50   Input ~ 0
+E.1
+Text GLabel 2200 5450 0    50   Input ~ 0
+F.1
+Text GLabel 3000 5350 2    50   Input ~ 0
+F.2
+Text GLabel 3000 5250 2    50   Input ~ 0
+E.2
+Text GLabel 3000 5150 2    50   Input ~ 0
+D.2
+Text GLabel 3000 5050 2    50   Input ~ 0
+C.2
+Text GLabel 3000 4950 2    50   Input ~ 0
+B.2
+Text GLabel 3000 4850 2    50   Input ~ 0
+A.2
+Text GLabel 3000 4550 2    50   Input ~ 0
+ABCDEF.5
+Text GLabel 3000 4450 2    50   Input ~ 0
+ABCDEF.5
+Text GLabel 3000 4350 2    50   Input ~ 0
+ABCDEF.6
+Text GLabel 3000 4250 2    50   Input ~ 0
+ABCDEF.4
+Text GLabel 3000 2750 2    50   Input ~ 0
+G.6
+Text GLabel 3000 2650 2    50   Input ~ 0
+G.5
 $EndSCHEMATC
