@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name autophon-nerdblatt)(type Legacy)(uri ${KIPRJMOD}/autophon-nerdblatt.lib)(options "")(descr ""))
+  (lib (name autophon-nerdblatt-rescue)(type Legacy)(uri ${KIPRJMOD}/autophon-nerdblatt-rescue.lib)(options "")(descr ""))
 )
