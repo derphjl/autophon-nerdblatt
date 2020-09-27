@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5F69495A
+P 3050 1600
+F 0 "J1" H 3022 1482 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 3022 1573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 1600 50  0001 C CNN
+F 3 "~" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D1
+U 1 1 5F69A2EF
+P 2550 1700
+F 0 "D1" H 2600 1800 50  0000 R CNN
+F 1 "1N4004" H 2700 1900 50  0000 R CNN
+F 2 "Diode_SMD:D_MELF" H 2550 1525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2550 1700 50  0001 C CNN
+	1    2550 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F69CF49
+P 1800 1200
+F 0 "R2" H 1870 1246 50  0000 L CNN
+F 1 "R" H 1870 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1200 50  0001 C CNN
+F 3 "~" H 1800 1200 50  0001 C CNN
+	1    1800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F69E900
+P 1800 2550
+F 0 "R1" H 1870 2596 50  0000 L CNN
+F 1 "R" H 1870 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 2550 50  0001 C CNN
+F 3 "~" H 1800 2550 50  0001 C CNN
+	1    1800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS543:SS543 U2
+U 1 1 5F6AA99E
+P 1350 2800
+F 0 "U2" H 1500 3050 50  0000 R CNN
+F 1 "SS543" H 1550 2550 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1300 2800 50  0001 C CNN
+F 3 "" H 1300 2800 50  0001 C CNN
+	1    1350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F6AB1E1
+P 1300 3350
+F 0 "#PWR0101" H 1300 3100 50  0001 C CNN
+F 1 "GND" H 1305 3177 50  0000 C CNN
+F 2 "" H 1300 3350 50  0001 C CNN
+F 3 "" H 1300 3350 50  0001 C CNN
+	1    1300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F6AAE2E
+P 1300 1850
+F 0 "#PWR0102" H 1300 1600 50  0001 C CNN
+F 1 "GND" H 1305 1677 50  0000 C CNN
+F 2 "" H 1300 1850 50  0001 C CNN
+F 3 "" H 1300 1850 50  0001 C CNN
+	1    1300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS543:SS543 U1
+U 1 1 5F6AA279
+P 1350 1400
+F 0 "U1" H 1450 1650 50  0000 R CNN
+F 1 "SS543" H 1600 1100 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1300 1400 50  0001 C CNN
+F 3 "" H 1300 1400 50  0001 C CNN
+	1    1350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5F693A31
+P 1300 800
+F 0 "#PWR01" H 1300 650 50  0001 C CNN
+F 1 "+5V" H 1315 973 50  0000 C CNN
+F 2 "" H 1300 800 50  0001 C CNN
+F 3 "" H 1300 800 50  0001 C CNN
+	1    1300 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5F6ACB80
+P 1300 2300
+F 0 "#PWR0103" H 1300 2150 50  0001 C CNN
+F 1 "+5V" H 1315 2473 50  0000 C CNN
+F 2 "" H 1300 2300 50  0001 C CNN
+F 3 "" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 800  1300 1000
+Wire Wire Line
+	1300 2500 1300 2350
+Wire Wire Line
+	1300 3350 1300 3150
+Connection ~ 1300 3150
+Wire Wire Line
+	1300 3150 1300 3100
+$Comp
+L power:+5V #PWR0104
+U 1 1 5F6AF039
+P 2650 800
+F 0 "#PWR0104" H 2650 650 50  0001 C CNN
+F 1 "+5V" H 2665 973 50  0000 C CNN
+F 2 "" H 2650 800 50  0001 C CNN
+F 3 "" H 2650 800 50  0001 C CNN
+	1    2650 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1400 1800 1400
+Wire Wire Line
+	1800 1400 1800 1350
+Wire Wire Line
+	1800 1050 1800 1000
+Wire Wire Line
+	1800 1000 1300 1000
+Connection ~ 1300 1000
+Wire Wire Line
+	1300 1000 1300 1100
+Wire Wire Line
+	1300 2350 1800 2350
+Wire Wire Line
+	1800 2350 1800 2400
+Connection ~ 1300 2350
+Wire Wire Line
+	1300 2350 1300 2300
+Wire Wire Line
+	1600 2800 1800 2800
+Wire Wire Line
+	1800 2800 1800 2700
+Wire Wire Line
+	2850 1700 2700 1700
+Wire Wire Line
+	2400 1700 2300 1700
+Wire Wire Line
+	2300 1700 2300 3150
+Wire Wire Line
+	2300 3150 1300 3150
+Wire Wire Line
+	2850 1500 2650 1500
+Wire Wire Line
+	2650 1500 2650 800 
+Wire Wire Line
+	2850 1400 1800 1400
+Connection ~ 1800 1400
+Wire Wire Line
+	2850 1600 2200 1600
+Wire Wire Line
+	2200 1600 2200 2800
+Wire Wire Line
+	2200 2800 1800 2800
+Connection ~ 1800 2800
+Text Label 2100 1400 0    50   ~ 0
+Rotor_Sens
+Text Label 2150 1600 0    50   ~ 0
+Zero_Sens
+$Comp
+L Device:C C1
+U 1 1 5F6C1A2F
+P 850 1250
+F 0 "C1" H 965 1296 50  0000 L CNN
+F 1 "100n/16V" V 700 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 888 1100 50  0001 C CNN
+F 3 "~" H 850 1250 50  0001 C CNN
+	1    850  1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F6C2355
+P 900 2800
+F 0 "C2" H 1015 2846 50  0000 L CNN
+F 1 "100n/16V" V 750 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 2650 50  0001 C CNN
+F 3 "~" H 900 2800 50  0001 C CNN
+	1    900  2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1850 1300 1750
+Wire Wire Line
+	1300 1000 850  1000
+Wire Wire Line
+	850  1000 850  1100
+Wire Wire Line
+	850  1400 850  1750
+Wire Wire Line
+	850  1750 1300 1750
+Connection ~ 1300 1750
+Wire Wire Line
+	1300 1750 1300 1700
+Wire Wire Line
+	1300 3150 900  3150
+Wire Wire Line
+	900  3150 900  2950
+Wire Wire Line
+	900  2650 900  2350
+Wire Wire Line
+	900  2350 1300 2350
+$EndSCHEMATC
