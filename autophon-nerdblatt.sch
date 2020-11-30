@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -212,6 +212,204 @@ F 1 "board-edge-connector" H 3925 6434 50  0000 C CNN
 F 2 "autophon-nerdblatt:autophon-pcb-edge-connector" H 3450 3850 50  0001 C CNN
 F 3 "" H 3450 3850 50  0001 C CNN
 	1    3950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:L298HN U2
+U 1 1 5F63A398
+P 10050 1500
+F 0 "U2" H 10050 2381 50  0000 C CNN
+F 1 "L298HN" H 10050 2290 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-15_P2.54x5.08mm_StaggerOdd_Lead5.08mm_Vertical" H 10100 850 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 10200 1750 50  0001 C CNN
+	1    10050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:L298HN U3
+U 1 1 5F63E13A
+P 10050 3450
+F 0 "U3" H 10050 4331 50  0000 C CNN
+F 1 "L298HN" H 10050 4240 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-15_P2.54x5.08mm_StaggerOdd_Lead5.08mm_Vertical" H 10100 2800 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 10200 3700 50  0001 C CNN
+	1    10050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:L298HN U4
+U 1 1 5F63E70D
+P 10050 5400
+F 0 "U4" H 10050 6281 50  0000 C CNN
+F 1 "L298HN" H 10050 6190 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-15_P2.54x5.08mm_StaggerOdd_Lead5.08mm_Vertical" H 10100 4750 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 10200 5650 50  0001 C CNN
+	1    10050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 1300 10850 1300
+Wire Wire Line
+	10650 1400 10850 1400
+Wire Wire Line
+	10650 1600 10850 1600
+Wire Wire Line
+	10650 1700 10850 1700
+Wire Wire Line
+	10650 3250 10850 3250
+Wire Wire Line
+	10650 3350 10850 3350
+Wire Wire Line
+	10650 3550 10850 3550
+Wire Wire Line
+	10650 3650 10850 3650
+Wire Wire Line
+	10650 5200 10850 5200
+Wire Wire Line
+	10650 5300 10850 5300
+Wire Wire Line
+	10650 5500 10850 5500
+Wire Wire Line
+	10650 5600 10850 5600
+Text GLabel 10850 1300 2    50   Input ~ 0
+A.1
+Text GLabel 10850 1400 2    50   Input ~ 0
+A.2
+Text GLabel 10850 1600 2    50   Input ~ 0
+B.1
+Text GLabel 10850 1700 2    50   Input ~ 0
+B.2
+Text GLabel 10850 3250 2    50   Input ~ 0
+C.1
+Text GLabel 10850 3350 2    50   Input ~ 0
+C.2
+Text GLabel 10850 3550 2    50   Input ~ 0
+D.1
+Text GLabel 10850 3650 2    50   Input ~ 0
+D.2
+Text GLabel 10850 5200 2    50   Input ~ 0
+E.1
+Text GLabel 10850 5300 2    50   Input ~ 0
+E.2
+Text GLabel 10850 5500 2    50   Input ~ 0
+F.1
+Text GLabel 10850 5600 2    50   Input ~ 0
+F.2
+Wire Wire Line
+	10050 6100 10050 6150
+Wire Wire Line
+	10050 2200 10050 2250
+Wire Wire Line
+	10050 4150 10050 4200
+Wire Wire Line
+	9450 1000 9350 1000
+Wire Wire Line
+	9450 1100 9350 1100
+Wire Wire Line
+	9450 1200 9350 1200
+Wire Wire Line
+	9450 1400 9350 1400
+Wire Wire Line
+	9450 1500 9350 1500
+Wire Wire Line
+	9450 1600 9350 1600
+Wire Wire Line
+	9450 2950 9300 2950
+Wire Wire Line
+	9450 3050 9300 3050
+Wire Wire Line
+	9450 3150 9300 3150
+Wire Wire Line
+	9450 3350 9300 3350
+Wire Wire Line
+	9450 3450 9300 3450
+Wire Wire Line
+	9450 3550 9300 3550
+Wire Wire Line
+	9450 4900 9300 4900
+Wire Wire Line
+	9450 5000 9300 5000
+Wire Wire Line
+	9450 5100 9300 5100
+Wire Wire Line
+	9450 5300 9300 5300
+Wire Wire Line
+	9450 5400 9300 5400
+Wire Wire Line
+	9450 5500 9300 5500
+Text GLabel 9350 1000 0    50   Input ~ 0
+A_IN1
+Text GLabel 9350 1100 0    50   Input ~ 0
+A_IN2
+Text GLabel 9350 1200 0    50   Input ~ 0
+A_EN
+Text GLabel 9350 1400 0    50   Input ~ 0
+B_IN3
+Text GLabel 9350 1500 0    50   Input ~ 0
+B_IN4
+Text GLabel 9350 1600 0    50   Input ~ 0
+B_EN
+Text GLabel 9300 2950 0    50   Input ~ 0
+C_IN1
+Text GLabel 9300 3050 0    50   Input ~ 0
+C_IN2
+Text GLabel 9300 3150 0    50   Input ~ 0
+C_EN
+Text GLabel 9300 3350 0    50   Input ~ 0
+D_IN3
+Text GLabel 9300 3450 0    50   Input ~ 0
+D_IN4
+Text GLabel 9300 3550 0    50   Input ~ 0
+D_EN
+Text GLabel 9300 4900 0    50   Input ~ 0
+E_IN1
+Text GLabel 9300 5000 0    50   Input ~ 0
+E_IN2
+Text GLabel 9300 5100 0    50   Input ~ 0
+E_EN
+Text GLabel 9300 5300 0    50   Input ~ 0
+F_IN3
+Text GLabel 9300 5400 0    50   Input ~ 0
+F_IN4
+Text GLabel 9300 5500 0    50   Input ~ 0
+F_EN
+$Sheet
+S 5950 750  1050 1350
+U 5F6AFC19
+F0 "FlipFlop_Logic" 50
+F1 "FF.sch" 50
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 5FC57AD7
+P 10050 2250
+F 0 "#PWR?" H 10050 2000 50  0001 C CNN
+F 1 "GND" H 10055 2077 50  0000 C CNN
+F 2 "" H 10050 2250 50  0001 C CNN
+F 3 "" H 10050 2250 50  0001 C CNN
+	1    10050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC58737
+P 10050 4200
+F 0 "#PWR?" H 10050 3950 50  0001 C CNN
+F 1 "GND" H 10055 4027 50  0000 C CNN
+F 2 "" H 10050 4200 50  0001 C CNN
+F 3 "" H 10050 4200 50  0001 C CNN
+	1    10050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC591D3
+P 10050 6150
+F 0 "#PWR?" H 10050 5900 50  0001 C CNN
+F 1 "GND" H 10055 5977 50  0000 C CNN
+F 2 "" H 10050 6150 50  0001 C CNN
+F 3 "" H 10050 6150 50  0001 C CNN
+	1    10050 6150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
