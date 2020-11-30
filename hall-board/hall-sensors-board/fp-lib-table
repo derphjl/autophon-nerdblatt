@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name nerdberg_logo)(type KiCad)(uri ${KIPRJMOD}/nerdberg_logo.pretty)(options "")(descr ""))
-)
