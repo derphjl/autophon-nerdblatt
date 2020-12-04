@@ -418,4 +418,6 @@ U 5FC6F066
 F0 "dummy vogelchr" 50
 F1 "dummy_vogelchr.sch" 50
 $EndSheet
+Text Notes 4850 3900 1    50   ~ 0
+there needs to be 24V somewhere on this connector... (Supply)
 $EndSCHEMATC
