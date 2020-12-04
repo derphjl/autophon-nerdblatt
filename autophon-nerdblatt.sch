@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -26,53 +26,53 @@ G.4
 Text GLabel 3350 2900 0    50   Input ~ 0
 G.3
 Text GLabel 3350 4200 0    50   Input ~ 0
-A.3
+A_HALL_VCC
 Text GLabel 3350 4300 0    50   Input ~ 0
-B.3
+B_HALL_VCC
 Text GLabel 3350 4400 0    50   Input ~ 0
-C.3
+C_HALL_VCC
 Text GLabel 3350 4600 0    50   Input ~ 0
-D.3
+D_HALL_VCC
 Text GLabel 3350 4700 0    50   Input ~ 0
-E.3
+E_HALL_VCC
 Text GLabel 3350 4800 0    50   Input ~ 0
-F.3
+F_HALL_VCC
 Text GLabel 3350 5000 0    50   Input ~ 0
-A.1
+A_MOTOR_POS
 Text GLabel 3350 5100 0    50   Input ~ 0
-B.1
+B_MOTOR_POS
 Text GLabel 3350 5200 0    50   Input ~ 0
-C.1
+C_MOTOR_POS
 Text GLabel 3350 5400 0    50   Input ~ 0
-D.1
+D_MOTOR_POS
 Text GLabel 3350 5500 0    50   Input ~ 0
-E.1
+E_MOTOR_POS
 Text GLabel 3350 5600 0    50   Input ~ 0
-F.1
+F_MOTOR_POS
 Text GLabel 4550 5500 2    50   Input ~ 0
-F.2
+F_MOTOR_NEG
 Text GLabel 4550 5400 2    50   Input ~ 0
-E.2
+E_MOTOR_NEG
 Text GLabel 4550 5300 2    50   Input ~ 0
-D.2
+D_MOTOR_NEG
 Text GLabel 4550 5200 2    50   Input ~ 0
-C.2
+C_MOTOR_NEG
 Text GLabel 4550 5100 2    50   Input ~ 0
-B.2
+B_MOTOR_NEG
 Text GLabel 4550 5000 2    50   Input ~ 0
-A.2
+A_MOTOR_NEG
 Text GLabel 4550 4700 2    50   Input ~ 0
-ABCDEF.5
+ABCDEF_HALL_GND
 Text GLabel 4500 2800 2    50   Input ~ 0
 G.5
 Text GLabel 4500 2900 2    50   Input ~ 0
 G.6
 Text GLabel 4550 4600 2    50   Input ~ 0
-ABCDEF.5
+ABCDEF_HALL_GND
 Text GLabel 4550 4500 2    50   Input ~ 0
-ABCDEF.6
+ABCDEF_HALL_ROTOR
 Text GLabel 4550 4400 2    50   Input ~ 0
-ABCDEF.4
+ABCDEF_HALL_INDEX
 NoConn ~ 3450 4500
 NoConn ~ 3450 1900
 NoConn ~ 3450 2000
@@ -412,4 +412,10 @@ F 3 "" H 10050 6150 50  0001 C CNN
 	1    10050 6150
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5950 2950 2450 1350
+U 5FC6F066
+F0 "dummy vogelchr" 50
+F1 "dummy_vogelchr.sch" 50
+$EndSheet
 $EndSCHEMATC
